@@ -1,0 +1,142 @@
+body {
+	background-color: white;
+	color: rgb(47, 62, 70);
+}
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(1, 22, 39);
+	font-weight: 20%;
+}
+
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+li{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+}
+
+
+
+.titre{
+	color: rgb(41, 50, 65);
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+	font-size: 50px;
+}
+
+
+.portrait{
+  	width: 200px;
+ 	height: 200px;
+ 	object-fit: cover;
+ 	border-radius: 50%;
+ }
+
+
+
+
+.card-design{
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.1);
+    background: white;
+    padding: 80px;
+    margin: 20px;
+    border-radius: 2px;
+}
+
+.card-design, .banner {
+	text-align: center;
+}
+
+
+
+
+.container{
+	background-color: white;
+	text-align: auto;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.banner{
+	height: 400px;
+	padding-top: 100px;
+}
+
+
+
+/* Custome design with class */
+
+
+
+.btn-grey {
+	background-color: rgb(41, 50, 65);
+	color: white;
+	padding: 5px 30px;
+	border-radius: 2px;
+	font-style: none;	
+	transition: background 0.3s ease;
+	text-decoration: none;
+}
+
+.btn-grey:hover {
+	background-color: rgb(152, 193, 217);
+	color: white;
+	opacity: 1;
+}
+
+
+
+
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-horizontal i {
+	font-size: 80px;
+	color: rgb(41, 50, 65);
+}
+
+.list-horizontal i:hover {
+	background-color: rgb(152, 193, 217);
+	color: white;
+	opacity: 1;
+	transition: background 0.3s ease;
+}
+
+
+
+
+
+
+
+
